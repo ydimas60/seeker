@@ -1,0 +1,34 @@
+Hit:1 https://termux.net stable InRelease
+Ign:2 https://dl.bintray.com/grimler/game-packages-21 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-21 science InRelease
+Get:4 https://dl.bintray.com/grimler/game-packages-21 games Release [5344 B]
+Hit:4 https://dl.bintray.com/grimler/game-packages-21 games Release
+Err:5 https://dl.bintray.com/grimler/game-packages-21 games Release.gpg
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5AAAC9E0A46BE53C
+Get:6 https://dl.bintray.com/grimler/science-packages-21 science Release [5348 B]
+Hit:6 https://dl.bintray.com/grimler/science-packages-21 science Release
+Err:7 https://dl.bintray.com/grimler/science-packages-21 science Release.gpg
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5AAAC9E0A46BE53C
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python is already the newest version (3.8.0-1).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php is already the newest version (7.3.10-1).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openssh is already the newest version (8.1p1-2).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+Requirement already satisfied: requests in /data/data/com.termux/files/usr/lib/python3.8/site-packages (2.23.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from requests) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from requests) (2.9)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from requests) (1.25.8)
+Requirement already satisfied: certifi>=2017.4.17 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from requests) (2019.11.28)
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
